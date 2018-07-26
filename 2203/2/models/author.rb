@@ -1,10 +1,10 @@
-require './files_reader'
-require './battle'
-require './author_reader'
-require 'pry'
+# require './files_reader'
+# require './battle'
+# require './author_reader'
+# require 'pry'
 
 # Author with rapper names and rapper battles
-class Author
+class Rapper
   attr_reader :battles, :name
 
   ROUNDS_COUNT = 3.to_f
